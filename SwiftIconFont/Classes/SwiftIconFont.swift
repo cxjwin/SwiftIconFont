@@ -9,11 +9,11 @@
 import UIKit
 
 public struct SwiftIcon {
-    let font: Fonts
-    let code: String
-    let color: UIColor
-    let imageSize: CGSize
-    let fontSize: CGFloat
+    public let font: Fonts
+    public let code: String
+    public let color: UIColor
+    public let imageSize: CGSize
+    public let fontSize: CGFloat
 }
 
 public enum Fonts: String {
